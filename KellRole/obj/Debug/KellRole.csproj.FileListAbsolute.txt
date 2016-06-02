@@ -1,0 +1,8 @@
+E:\soft\KellRole\KellRole\bin\Debug\KellRole.dll
+E:\soft\KellRole\KellRole\bin\Debug\KellRole.pdb
+E:\soft\KellRole\KellRole\obj\Debug\KellRole.dll
+E:\soft\KellRole\KellRole\obj\Debug\KellRole.pdb
+F:\2016\KellRole\KellRole\bin\Debug\KellRole.dll
+F:\2016\KellRole\KellRole\bin\Debug\KellRole.pdb
+F:\2016\KellRole\KellRole\obj\Debug\KellRole.dll
+F:\2016\KellRole\KellRole\obj\Debug\KellRole.pdb

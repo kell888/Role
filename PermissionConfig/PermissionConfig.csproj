@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35712CA1-6D5E-47BF-971A-B345F122BD6E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PermissionConfig</RootNamespace>
+    <AssemblyName>PermissionConfig</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="KellListBoxSelecter">
+      <HintPath>..\..\KellListBoxSelecter\KellListBoxSelecter\bin\Debug\KellListBoxSelecter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActForm.designer.cs">
+      <DependentUpon>ActForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Architecture.cs" />
+    <Compile Include="AssignForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignForm.designer.cs">
+      <DependentUpon>AssignForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigClient.designer.cs">
+      <DependentUpon>ConfigClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartForm.designer.cs">
+      <DependentUpon>DepartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DepUserControl.designer.cs">
+      <DependentUpon>DepUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepUserControlEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DepUserControlEx.designer.cs">
+      <DependentUpon>DepUserControlEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LockForm.designer.cs">
+      <DependentUpon>LockForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModForm.designer.cs">
+      <DependentUpon>ModForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerForm.designer.cs">
+      <DependentUpon>PerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoleForm.designer.cs">
+      <DependentUpon>RoleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectControlForm.designer.cs">
+      <DependentUpon>SelectControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UgForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UgForm.designer.cs">
+      <DependentUpon>UgForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm.designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActForm.resx">
+      <DependentUpon>ActForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignForm.resx">
+      <DependentUpon>AssignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigClient.resx">
+      <DependentUpon>ConfigClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartForm.resx">
+      <DependentUpon>DepartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepUserControl.resx">
+      <DependentUpon>DepUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepUserControlEx.resx">
+      <DependentUpon>DepUserControlEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LockForm.resx">
+      <DependentUpon>LockForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModForm.resx">
+      <DependentUpon>ModForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerForm.resx">
+      <DependentUpon>PerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RoleForm.resx">
+      <DependentUpon>RoleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectControlForm.resx">
+      <DependentUpon>SelectControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UgForm.resx">
+      <DependentUpon>UgForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KellRole\KellRole.csproj">
+      <Project>{AAA3A501-2C1F-4239-9A59-E30F2D04D952}</Project>
+      <Name>KellRole</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
